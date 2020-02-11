@@ -1,0 +1,45 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-11T09:47:22.291Z",
+        "line": 4,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "test-calculator;add-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I enter 20 in the calculator",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I press add",
+            "match": {
+              "location": "renamevalue.class1.I_press_add()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test Calculator",
+    "description": "This file describes calculator functionality",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:renamevalue/renva.feature",
+    "tags": []
+  }
+]
